@@ -41,7 +41,6 @@ use string::String;
 
 use serializable::Serializable;
 use serialize;
-use hash::Hashable;
 
 func ExitWithMessage(msg: String) {
     msg.PrintLine();
